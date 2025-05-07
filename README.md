@@ -16,7 +16,9 @@ It involves:
 ## Research Question
 
 RQ1: What emotional tones dominate the trailer comment sections of anticipated 2024/2025 films?
+
 RQ2: Do higher average user ratings on IMDb, RT, and Metacritic significantly correlate with box office success?
+
 RQ3: Can YouTube sentiment signal box office performance through keyword frequency and tone?
 
 
