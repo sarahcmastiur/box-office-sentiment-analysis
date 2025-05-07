@@ -78,6 +78,11 @@ These findings suggest genre blending may suppress audience turnout, revealing n
 
 ## File Directory Overview
     box-office-sentiment-analysis/
+    ├── data/
+    │   └── combined_movie_data_updated.csv # Final movie dataset (ratings + box office)
+    │   └── reddit_comments.csv # Reddit-sourced text comments (optional)
+    │   └── sentiments_tone_specific_update.csv # Normalized tone metrics by movie
+    │   └── youtube_movie_comments_cleaned.csv # Scraped and cleaned YouTube
     ├── script/
     │   └── Youtube API_2.R # Scraping YouTube comments
     │   └── R Code for Movies Rating.R # Rating source ingestion (IMDb, RT, Metacritic)
@@ -85,11 +90,6 @@ These findings suggest genre blending may suppress audience turnout, revealing n
     │   └── RQ1_model_analysis.R # Analysis of tone-specific variables
     │   └── Linear Regression RQ2 RQ3.R # Baseline regression for ratings & box office
     │   └── RQ2_RQ3_xgb_model_analysis.R # XGBoost modeling on structured predictors
-    ├── data/
-    │   └── combined_movie_data_updated.csv # Final movie dataset (ratings + box office)
-    │   └── reddit_comments.csv # Reddit-sourced text comments (optional)
-    │   └── sentiments_tone_specific_update.csv # Normalized tone metrics by movie
-    │   └── youtube_movie_comments_cleaned.csv # Scraped and cleaned YouTube
     ├── README.Rmd  # This file
 
 
