@@ -3,7 +3,7 @@ library(jsonlite)
 library(dplyr)
 
 # Replace with your OMDB API key
-api_key <- "1b7d4dac"
+api_key <- #api_key
 
 
 # Function to fetch movie details from OMDB
